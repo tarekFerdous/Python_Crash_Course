@@ -8,6 +8,8 @@ del cities[3]
 #pop
 cities.pop()
 cities.pop(4)
+#remove
+cities.remove('Chattogram')
 #sorted()
 print('Sorted() ascending: ' + str(sorted(cities)))
 print('Sorted() descending: ' + str(sorted(cities, reverse=True)))
